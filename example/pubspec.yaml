@@ -13,7 +13,9 @@ dependencies:
   webview_useragent:
     path: ../
   webview_useragent_platform_interface:
-    path: ../../webview_useragent_platform_interface
+    git:
+      url: git@github.com:rj9676564/webview_useragent.git
+      path: webview_useragent_platform_interface
 
   cupertino_icons: ^1.0.2
 

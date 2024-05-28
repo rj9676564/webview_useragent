@@ -12,12 +12,18 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  webview_useragent_ios: 
-    path: ./webview_useragent_ios  # webview_useragent_android:
+  webview_useragent_ios:
+    git:
+      url: git@github.com:rj9676564/webview_useragent.git
+      path: webview_useragent_ios
   webview_useragent_android:
-    path: ./webview_useragent_android
+    git:
+      url: git@github.com:rj9676564/webview_useragent.git
+      path: webview_useragent_android
   webview_useragent_platform_interface:
-    path: ./webview_useragent_platform_interface
+    git:
+      url: git@github.com:rj9676564/webview_useragent.git
+      path: webview_useragent_platform_interface
 
 dev_dependencies:
   flutter_test:
