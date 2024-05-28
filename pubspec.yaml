@@ -3,7 +3,7 @@ description: "A Flutter plugin to get native WebView UserAgent."
 repository: https://github.com/strysk/webview_useragent/tree/main/webview_useragent
 version: 1.0.0
 
-publish_to: 
+publish_to: 'none'
 environment:
   sdk: '^3.1.0'
   flutter: '>=3.13.0'
