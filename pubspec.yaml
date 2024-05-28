@@ -3,6 +3,7 @@ description: "A Flutter plugin to get native WebView UserAgent."
 repository: https://github.com/strysk/webview_useragent/tree/main/webview_useragent
 version: 1.0.0
 
+publish_to: 
 environment:
   sdk: '^3.1.0'
   flutter: '>=3.13.0'
@@ -11,9 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  webview_useragent_ios: ^1.0.0
-  webview_useragent_android: ^1.0.0
-  webview_useragent_platform_interface: ^1.0.0
+  webview_useragent_ios: 
+    path: ./webview_useragent_ios  # webview_useragent_android:
+  webview_useragent_android:
+    path: ./webview_useragent_android
+  webview_useragent_platform_interface:
+    path: ./webview_useragent_platform_interface
 
 dev_dependencies:
   flutter_test:
